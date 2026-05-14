@@ -1,3 +1,9 @@
+function MiComponente() {
+  return (
+    <h1 className="font-orbitron">Este texto usa Orbitron</h1>
+  );
+}
+
 
 import { useState, useMemo } from "react";
 export default function SimuladorFisicaUMG() {
@@ -60,11 +66,13 @@ export default function SimuladorFisicaUMG() {
       <div className="max-w-7xl mx-auto">
         <div className="bg-white shadow-2xl rounded-3xl p-8">
           <h1 className="text-4xl font-bold text-center mb-2">
-            Simulador de Física 1
+            Simulador de Movimiento Parabolico 
           </h1>
+            <h1>y Energía</h1>
+          
 
           <p className="text-center text-gray-600 mb-8">
-            Proyecto Final Fisica 1 - Marlon Damian Diaz Paz 1490-253109
+            Proyecto Final Fisica 1 - Marlon Damian Diaz Paz 1490-25-3109
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -81,7 +89,7 @@ export default function SimuladorFisicaUMG() {
                   <input
                     type="range"
                     min="0"
-                    max="90"
+                    max="90" 
                     value={angulo}
                     onChange={(e) => setAngulo(Number(e.target.value))}
                     className="w-full"

@@ -1,7 +1,30 @@
+/* Importación desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+body {
+  font-family: "Orbitron", sans-serif; /* Se aplica a todo */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Fuerza también los elementos de texto comunes */
+h1, h2, h3, h4, p, span, div, input, button {
+  font-family: "Orbitron", sans-serif !important;
+}
+.font-orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Puedes cambiar esto entre 400 y 900 */
+  font-style: normal;
+}
+
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
-  border-radius: 5px;
   color: var(--accent);
   background: var(--accent-bg);
   border: 2px solid transparent;
