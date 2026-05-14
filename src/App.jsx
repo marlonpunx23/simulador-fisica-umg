@@ -1,9 +1,9 @@
 function MiComponente() {
   return (
-    <h1 className="font-orbitron">Este texto usa Orbitron</h1>
+    <h1 className="font-orbitron"></h1>
   );
 }
-
+  
 
 import { useState, useMemo } from "react";
 export default function SimuladorFisicaUMG() {
@@ -71,9 +71,9 @@ export default function SimuladorFisicaUMG() {
             <h1>y Energía</h1>
           
 
-          <p className="text-center text-gray-600 mb-8">
+          <h2 className="text-center text-gray-600 mb-8">
             Proyecto Final Fisica 1 - Marlon Damian Diaz Paz 1490-25-3109
-          </p>
+          </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-50 rounded-2xl p-6 shadow-md">
@@ -210,8 +210,8 @@ export default function SimuladorFisicaUMG() {
                 viewBox="0 0 900 450"
                 className="bg-white rounded-xl border"
               >
-                <line x1="50" y1="400" x2="850" y2="400" stroke="black" />
-                <line x1="50" y1="50" x2="50" y2="400" stroke="black" />
+                <line x1="50" y1="400" x2="850" y2="400" stroke="white" />
+                <line x1="50" y1="50" x2="50" y2="400" stroke="white" />
 
                 <text x="860" y="405" fontSize="14">
                   X
